@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.projectdevo">
+    package="com.example.projectdevo"
+    android:theme="@style/Theme.ProjectDevo.NoActionBar">
 
     <application
         android:allowBackup="true"
@@ -12,8 +13,7 @@
         <activity
             android:name=".SignUpScrollActivity"
             android:exported="false"
-            android:parentActivityName=".StartUpActivity"
-            android:theme="@style/Theme.Design.Light.NoActionBar"/>
+            android:parentActivityName=".StartUpActivity"/>
         <activity
             android:name=".SplashActivity"
             android:exported="true">

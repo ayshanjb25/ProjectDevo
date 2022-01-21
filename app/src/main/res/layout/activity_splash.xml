@@ -2,12 +2,12 @@
 <androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/motionLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_color"
+    android:background="@color/black"
     app:layoutDescription="@xml/activity_splash_scene"
-    tools:context=".SplashActivity"
-    android:id="@+id/motionLayout">
+    tools:context=".SplashActivity">
 
     <TextView
         android:id="@+id/textView4"

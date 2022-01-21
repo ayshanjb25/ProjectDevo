@@ -1,15 +1,20 @@
 package com.example.projectdevo
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
+import android.widget.TextView
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        val actionBar= supportActionBar
-        actionBar!!.title = "Log In"
-        actionBar.setDisplayHomeAsUpEnabled(true)
+        val signUpTV = findViewById<TextView>(R.id.TVSignUpLink)
+        signUpTV.setOnClickListener{
+            val intent = Intent(this, SignUpScrollActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
