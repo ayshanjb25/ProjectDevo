@@ -92,4 +92,29 @@
     </string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_scrolling">ScrollingActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="password">Password (Minimum 8 characters)</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log In</string>
+    <string name="refferal">Referral Code (Optional)</string>
+    <string name="teamcode">My Team Code (Optional)</string>
+    <string name="business">My Business Name (Optional)</string>
+    <string name="privacypolicy"><![CDATA[I accept Devo\'s Terms of Use & Privacy Policy]]></string>
+    <string name="sign_up_with">Sign up with</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="Required" />
+    <string name="required" />
+    <string name="t_login">Already a user? Log in</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="v">V</string>
+    <string name="o">O</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="agent_app">AGENT APP</string>
+    <string name="t_sign_up">No Account? Sign Up</string>
+    <string name="log_in_with">Log In with</string>
 </resources>
